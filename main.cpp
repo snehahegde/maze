@@ -13,4 +13,12 @@ main( int argc, char* argv[] ) {
 
     int rooms = atoi( argv[1] );
     Maze m(rooms);
+    m.print();
+
+
+    //Maze dfs = m.traverse_dfs();
+    //dfs.print();
+
+    //Maze bfs = m.traverse_bfs();
+    //bfs.print();
 }
