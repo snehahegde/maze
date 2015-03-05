@@ -16,7 +16,7 @@ main( int argc, char* argv[] ) {
     m.print();
 
 
-    //Maze dfs = m.traverse_dfs();
+    Maze dfs = m.traverse_dfs();
     //dfs.print();
 
     //Maze bfs = m.traverse_bfs();

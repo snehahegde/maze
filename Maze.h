@@ -12,6 +12,7 @@ class Maze {
 
     private:
         int roomsPerSide_;
-        Vertex * v;
+        Vertex** v;
+        void CreateMaze (Vertex * source,int totalCells) ;
 };
 
